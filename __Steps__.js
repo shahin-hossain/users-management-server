@@ -12,10 +12,13 @@
  * ------------------------
  * npm install express cors
  *
- * create (.gitigonre) file
+ * create (.gitignore) file
  *
  * set express app, cors, port
+ * send users data
+ *--------------------------------
+ * 1. Create a post API on Server side
+ * 2. Client side sent data via post
  *
- *
+ * 
  */
-// 
