@@ -19,6 +19,14 @@
  *--------------------------------
  * 1. Create a post API on Server side
  * 2. Client side sent data via post
- *
+ * 3. set fetch method inside the fetch option (second parameter)
+ * 4. options will have three things: method
+ * 5. options will have headers: 'content-type': 'application/json'
+ * 6. body: dont forget to send data by JSON.Stringify in the body
+ * 
+ * -------------------------------
+ * on the server side: don't forget to use express.json() middleware
+ * এখন client থেকে যে data পাঠানো হয়েছে সেগুলো server এ সরাসরি পাবে না। এর মধ্যে একটা middleware লাগবে। যেটা হল express.json()
+ * middleware use করার পদ্ধতি হলে app.use(express.json())
  * 
  */
